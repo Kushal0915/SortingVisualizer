@@ -52,7 +52,7 @@ public class SortingVisualizer {
         sizeField = new JTextField("50", 5);
         controlPanel.add(sizeField);
 
-        resizeButton = new JButton("Resize Array");
+        resizeButton = new JButton("Reset Array");
         resizeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
